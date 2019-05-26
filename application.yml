@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profile: dev
+  application:
+      name: microservicecloud-config-client-zjs-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name:  microservicecloud-config-client-zjs-test
+#请保存为UTF-8格式
